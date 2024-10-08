@@ -5,7 +5,7 @@ $database = "demo-sql-db";
 $uid = "sqladmin";
 $pwd = "Password123!";
 
-$conn = new PDO("sqlsrv:server = $serverName; Database = $databaseName;", $uid, $pwd);
+$conn = new PDO("sqlsrv:server = $serverName; Database = $database;", $uid, $pwd);
 
     // Select Query
     // Executes the query
