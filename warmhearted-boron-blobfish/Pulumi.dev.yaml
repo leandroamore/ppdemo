@@ -1,0 +1,8 @@
+config:
+  azure-native:location: WestUS2
+  pulumi:template: vm-azure-csharp
+  warmhearted-boron-blobfish:adminUsername: pulumiuser
+  warmhearted-boron-blobfish:osImage: Debian:debian-11:11:latest
+  warmhearted-boron-blobfish:servicePort: "80"
+  warmhearted-boron-blobfish:vmName: my-server
+  warmhearted-boron-blobfish:vmSize: Standard_A1_v2

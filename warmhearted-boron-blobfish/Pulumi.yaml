@@ -1,0 +1,7 @@
+name: warmhearted-boron-blobfish
+description: A C# program to deploy a virtual machine on Azure
+runtime: dotnet
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: vm-azure-csharp
