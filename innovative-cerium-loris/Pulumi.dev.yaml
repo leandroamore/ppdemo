@@ -1,0 +1,10 @@
+config:
+  azure-native:location: WestUS2
+  innovative-cerium-loris:adminUsername: pulumiuser
+  innovative-cerium-loris:osImage: Debian:debian-11:11:latest
+  innovative-cerium-loris:servicePort: "80"
+  innovative-cerium-loris:vmName: my-server
+  innovative-cerium-loris:vmSize: Standard_A1_v2
+  pulumi:template: vm-azure-yaml
+environment:
+  - test/dev
